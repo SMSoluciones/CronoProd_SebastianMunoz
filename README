@@ -1,0 +1,23 @@
+FINAL JAVASCRIPT TERMINADO 🧠
+
+La intención de la entrega fue no hacer un juego sino una aplicación que estamos necesitando para la empresa donde trabajo.
+
+La misma es un quemador de etapas por sección. Dentro de la empresa estamos queriendo poner pantallas en todas las Secciones para ir contabilizando el tiempo que la unidad -vendemos buses 🚌- pasa dentro de la sección y de esa manera que el supervisor de área y los operarios sepan cuanto se está demorando. 
+
+La idea es con tiempo ampliar esta aplicación, pero para este desafío Final creo que hasta donde tengo es suficiente.
+
+¿Cómo funciona?
+
+Primero se ingresa el operador técnico que le hará seguimiento a esa unidad. El mismo no necesariamente tiene que estar registrado o debe registrarse es simplemente para que el Supervisor sepa quien está siguiendo esa unidad específica.
+
+Segundo se carga la unidad que se desea fabricar, en este caso hay algunas opciones. Cuando se carga cambia el plano de fabricación para visualizar si es la unidad correcta. Esta misma unidad puede ser remplazada para elegir otra en caso de error.
+
+Tercero se da una asignación. La asignación es básicamente el "nombre" interno que tiene la unidad. Comienza con el año y termina con el número de fabricación ej: 22-1254.
+
+Cuarto se carga la unidad. Luego de cargada la misma toma los datos y redirección la web al cronometro.
+
+¿Cómo funciona el cronometro?
+
+El mismo puede INICIAR, PARAR, GRABAR EN BOX y RESETEAR
+
+Antes de generar una carga dentro de la sección el cronometro se graba en un BOX para asegurarse que todo este correcto. Cuando se carga el tiempo a la sección se habilita la siguiente sección hasta llegar al final. Luego de terminar redirección la aplicación nuevamente a la página inicial para cargar la siguiente unidad. 

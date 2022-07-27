@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "modelo": "New ISIDRO",
+    "chasis": "Mercedes Benz O500",
+    "imagen": "../assets/img/isidro-mbo500.png",
+    "proceso": [
+      "../assets/img/isMecanica.png",
+      "../assets/img/isEstructura.png",
+      "../assets/img/isChaperia.png",
+      "../assets/img/isTerminacion.png",
+      "../assets/img/isPintura.png"
+    ]
+  },
+  {
+    "id": 2,
+    "modelo": "ISIDRO",
+    "chasis": "Scania K400",
+    "imagen": "../assets/img/isidro-mbo500.png",
+    "proceso": [
+      "../assets/img/isMecanica.png",
+      "../assets/img/isEstructura.png",
+      "../assets/img/isChaperia.png",
+      "../assets/img/isTerminacion.png",
+      "../assets/img/isPintura.png"
+    ]
+  },
+  {
+    "id": 3,
+    "modelo": "AVANTI",
+    "chasis": "Mercedes Benz M",
+    "imagen": "../assets/img/avanti360.png",
+    "proceso": [
+      "../assets/img/avMecanica.png",
+      "../assets/img/avEstructura.png",
+      "../assets/img/avChaperia.png",
+      "../assets/img/avTerminacion.png",
+      "../assets/img/avPintura.png"
+    ]
+  },
+  {
+    "id": 4,
+    "modelo": "AVANTI 15M",
+    "chasis": "Mercedes Benz O500",
+    "imagen": "../assets/img/avanti15m.png",
+    "proceso": [
+      "../assets/img/av15Mecanica.png",
+      "../assets/img/av15Estructura.png",
+      "../assets/img/av15Chaperia.png",
+      "../assets/img/av15Terminacion.png",
+      "../assets/img/av15Pintura.png"
+    ]
+  },
+  {
+    "id": 5,
+    "modelo": "CENTO",
+    "chasis": "Mercedes Benz OF1721",
+    "imagen": "../assets/img/cento-of.png",
+    "proceso": [
+      "../assets/img/ceMecanica.png",
+      "../assets/img/ceEstructura.png",
+      "../assets/img/ceTerminacion.png",
+      "../assets/img/ceTerminacion.png",
+      "../assets/img/cePintura.png"
+    ]
+  }
+]

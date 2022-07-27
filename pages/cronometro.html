@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>CRONOMETRO</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="cuerpoEntero">
+        <!--Logo + Titulo-->
+        <div class="fondoHeader">
+          <a href="../index.html"
+            ><img src="../assets/logos/logo-niccolo.png" alt=""
+          /></a>
+          <h1 class="usuarioIngresado"></h1>
+        </div>
+
+        <!--Recuadro de presentacion-->
+        <div class="headerCuadroCrono">
+          <!--Botoneras de Control-->
+          <div class="botoneraCuadro">
+            <div class="reloj">
+              <span class="horas">00</span> : <span class="minutos">00</span> :
+              <span class="segundos">00</span> :
+              <span class="cesegundos">00</span>
+            </div>
+
+            <!-- COMANDO RELOJ -->
+            <div class="comando__cronometro">
+              <button class="iniciar">INICIAR</button>
+              <button class="parar">PARAR</button>
+              <button class="grabar">GRABAR EN BOX</button>
+              <button class="reset">RESET</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTENEDOR -->
+    <div>
+      <h2 class="titulo">BOX DE TIEMPO</h2>
+      <div class="contenedor__grabaciones">00 : 00 : 00 : 00</div>
+      <div class="cont_limpiar">
+        <button class="limpiar__grabacion">LIMPIAR</button>
+      </div>
+    </div>
+
+    <div class="proceso_actual"></div>
+
+    <!-- SECCIONES -->
+    <div class="contenedor_secciones">
+      <div class="selecArea">
+        <h3>Mecanica</h3>
+        <div class="selec_mecanica"></div>
+        <button class="asignar__Mecanica">ASIGNAR</button>
+      </div>
+
+      <div class="selecArea">
+        <h3>Estructura</h3>
+        <div class="selec_estructura"></div>
+        <button class="asignar__estructura">BLOQUEADO</button>
+      </div>
+
+      <div class="selecArea">
+        <h3>Chaperia</h3>
+        <div class="selec_chaperia"></div>
+        <button class="asignar__chaperia">BLOQUEADO</button>
+      </div>
+
+      <div class="selecArea">
+        <h3>Terminacion</h3>
+        <div class="selec_terminacion"></div>
+        <button class="asignar__terminacion">BLOQUEADO</button>
+      </div>
+
+      <div class="selecArea">
+        <h3>Pintura</h3>
+        <div class="selec_pintura"></div>
+        <button class="asignar__pintura">BLOQUEADO</button>
+      </div>
+    </div>
+
+    <div class="completarTodo">
+      <button class="boton_completar">COMPLETAR</button>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/crono.js"></script>
+  </body>
+</html>
