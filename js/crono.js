@@ -348,6 +348,6 @@ btnCompletar.addEventListener("click", () => {
   });
   const origen = "./index.html";
   setTimeout(() => {
-    window.history.back();
+    window.location.href = "../index.html";
   }, 2000);
 });
