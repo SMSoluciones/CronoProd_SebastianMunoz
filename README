@@ -1,23 +1,23 @@
-FINAL JAVASCRIPT TERMINADO 🧠
+COMPLETED JAVASCRIPT PROJECT 🧠
 
-La intención de la entrega fue no hacer un juego sino una aplicación que estamos necesitando para la empresa donde trabajo.
+The intention behind this delivery was not to create a game but rather an application that our company needs.
 
-La misma es un quemador de etapas por sección. Dentro de la empresa estamos queriendo poner pantallas en todas las Secciones para ir contabilizando el tiempo que la unidad -vendemos buses 🚌- pasa dentro de la sección y de esa manera que el supervisor de área y los operarios sepan cuanto se está demorando. 
+This application serves as a stage burner by section. Within the company, we aim to install screens in all sections to keep track of the time a unit - we sell buses 🚌 - spends in each section. This way, the area supervisor and operators can know how much time is being taken.
 
-La idea es con tiempo ampliar esta aplicación, pero para este desafío Final creo que hasta donde tengo es suficiente.
+The plan is to expand this application over time, but for this final challenge, I believe it is sufficient as it stands.
 
-¿Cómo funciona?
+How does it work?
 
-Primero se ingresa el operador técnico que le hará seguimiento a esa unidad. El mismo no necesariamente tiene que estar registrado o debe registrarse es simplemente para que el Supervisor sepa quien está siguiendo esa unidad específica.
+First, enter the name of the technical operator who will be monitoring that unit. This operator does not necessarily have to be registered; it's simply for the supervisor to know who is following that specific unit.
 
-Segundo se carga la unidad que se desea fabricar, en este caso hay algunas opciones. Cuando se carga cambia el plano de fabricación para visualizar si es la unidad correcta. Esta misma unidad puede ser remplazada para elegir otra en caso de error.
+Second, load the unit you want to manufacture, with several options available. Upon loading, the manufacturing plan changes to visualize if it is the correct unit. This unit can be replaced to choose another in case of an error.
 
-Tercero se da una asignación. La asignación es básicamente el "nombre" interno que tiene la unidad. Comienza con el año y termina con el número de fabricación ej: 22-1254.
+Third, give it an assignment. The assignment is basically the internal "name" of the unit. It starts with the year and ends with the manufacturing number, e.g., 22-1254.
 
-Cuarto se carga la unidad. Luego de cargada la misma toma los datos y redirección la web al cronometro.
+Fourth, load the unit. After loading, the application takes the data and redirects to the stopwatch page.
 
-¿Cómo funciona el cronometro?
+How does the stopwatch work?
 
-El mismo puede INICIAR, PARAR, GRABAR EN BOX y RESETEAR
+It can START, STOP, RECORD IN BOX, and RESET.
 
-Antes de generar una carga dentro de la sección el cronometro se graba en un BOX para asegurarse que todo este correcto. Cuando se carga el tiempo a la sección se habilita la siguiente sección hasta llegar al final. Luego de terminar redirección la aplicación nuevamente a la página inicial para cargar la siguiente unidad. 
+Before generating a load within the section, the stopwatch records in a BOX to ensure everything is correct. When the time is loaded into the section, the next section is enabled until reaching the end. After finishing, the application redirects back to the initial page to load the next unit.
